@@ -33,6 +33,18 @@ body {
   color: var(--slate);
 }
 
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: var(--navy-blue);
+}
+
+/* Header */
+
 .header {
 }
 .header-nav {
@@ -47,7 +59,7 @@ body {
 
   font-family: var(--second-family);
 }
-.logo span {
+.header .logo span {
   color: var(--navy-blue);
 }
 
@@ -66,4 +78,108 @@ body {
 .address-list .list-link {
   color: var(--slate);
   font-style: normal;
+}
+
+/* HERO */
+
+.hero {
+  background-color: var(--navy-blue);
+}
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+.hero-button {
+  color: var(--white);
+  background-color: var(--iris);
+
+  /* Button Text */
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+.hero-button:hover {
+  background-color: var(--ocean);
+  cursor: pointer;
+}
+
+.features {
+}
+.visualy-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.features-list {
+}
+.list-item {
+}
+.list-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+
+  color: var(--navy-blue);
+}
+
+.list-text {
+}
+
+.services {
+}
+.services-title {
+}
+.services-list {
+}
+.list-item {
+}
+
+.team {
+  background-color: var(--cloud);
+}
+.team-title {
+}
+.team-list {
+}
+.list-item {
+}
+
+.list-text {
+}
+
+.footer {
+  background-color: var(--navy-blue);
+}
+.footer .logo span {
+  color: var(--cloud);
+}
+.footer-text {
+  color: var(--cloud);
+}
+/* Скидання */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
