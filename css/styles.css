@@ -80,6 +80,11 @@ body {
   font-style: normal;
 }
 
+.nav-list .list-link:hover,
+.address-list .list-link:hover {
+  color: var(--ocean);
+}
+
 /* HERO */
 
 .hero {
@@ -111,6 +116,8 @@ body {
   cursor: pointer;
 }
 
+/* features */
+
 .features {
 }
 .visualy-hidden {
@@ -129,7 +136,7 @@ body {
 }
 .list-item {
 }
-.list-title {
+.features-list .list-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -140,6 +147,8 @@ body {
 .list-text {
 }
 
+/* services */
+
 .services {
 }
 .services-title {
@@ -148,6 +157,8 @@ body {
 }
 .list-item {
 }
+
+/* team */
 
 .team {
   background-color: var(--cloud);
@@ -161,6 +172,50 @@ body {
 
 .list-text {
 }
+
+/* portfolio */
+
+.filter {
+}
+.filter-list .list-item {
+}
+.filter-button {
+  background-color: var(--cloud);
+  color: var(--iris);
+
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+.works {
+}
+.works-list .list-text {
+  color: var(--slate);
+}
+
+.link {
+}
+
+.works-list .list-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+
+  color: var(--navy-blue);
+}
+
+.list-text {
+}
+
+/* footer */
 
 .footer {
   background-color: var(--navy-blue);
